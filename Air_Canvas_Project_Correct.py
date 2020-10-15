@@ -670,7 +670,7 @@ def YellowCanvas():
 
 
 def Canvas():
-      sideimg=PhotoImage(file="C:/Users/GAURISHA/Desktop/Folders folder/Air Canvas Project/Air Canvas Github/canvas_man.png")
+      sideimg=PhotoImage(file="C:/Users/GAURISHA/Desktop/Folders folder/Air Canvas Project/Air Canvas Github/Images/canvas_man.png")
       sidelbl=Label(win, background = "lemon chiffon",)
       sidelbl.pack(padx=(15,0),pady=(50,30),side=LEFT)
       sidelbl.configure(image=sideimg)
@@ -731,7 +731,7 @@ win.config(background="lemon chiffon")
 win.resizable(0,0)
 
 
-headimg=PhotoImage(file="C:/Users/GAURISHA/Desktop/Folders folder/Air Canvas Project/Air Canvas Github/air_canvas_logo.png")
+headimg=PhotoImage(file="C:/Users/GAURISHA/Desktop/Folders folder/Air Canvas Project/Air Canvas Github/Images/air_canvas_logo.png")
 headlbl=Label(win, image=headimg, background = "lemon chiffon",)
 headlbl.pack()
 
